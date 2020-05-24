@@ -1,0 +1,29 @@
+body{
+    background: #2C2141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main{
+    background: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    font-family: Arial;
+
+}
+
+.content {
+
+}
+
+.orange-text{
+    
+    color: #ED6D05;
+}
+.red-text{
+    
+    color: #E20613;
+}
