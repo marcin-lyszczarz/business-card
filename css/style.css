@@ -1,3 +1,10 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
 body{
     background: #2C2141;
     display: flex;
@@ -18,6 +25,11 @@ body{
 }
 
 .person{
+    display: flex;
+    align-items: center;
+}
+.person__picture{
+    margin-right: 32px;
 
 }
 
