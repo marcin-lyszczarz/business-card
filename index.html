@@ -11,28 +11,31 @@
 
 <body>
     <main class="main">
-        <article>
-            <img src="img/avatar.png" alt="Zdjęcie">
-            <div>
-                <header>
-                    <h1>
-                        Imię i Nazwisko
-                    </h1>
-                    <p>Stanowisko</p>
+        <article class="person">
+            <img class="person__picture" src="img/avatar.png" alt="Zdjęcie">
+            <div class="text">
+                <header class="person__info">
+                    <h1 class="person__name">Marcin Łyszczarz</h1>
+                    <p class="person__position">frontend developer</p>
                 </header>
-                <p class="content">
-                    Programista z <spam class="orange-text">kilkunastoletnim doświadczeniem</spam>, fotograf, operator drona,
+                <p class="person__description person__description--with-margin">
+                    Programista z <spam class="orange-text">kilkunastoletnim doświadczeniem</spam>, fotograf, operator
+                    drona,
                     właściciel Sokoła Millennium (na razie tylko z Lego), <spam class="orange-text">prelegent i
-                    szkoleniowiec</spam>. Uwielbia eksperymentować z nowymi technologiami, w swojej
+                        szkoleniowiec</spam>. Uwielbia eksperymentować z nowymi technologiami, w swojej
                     twórczości ocierając się o sztukę.
                 </p>
-                <footer class="content">
-                    W sieci: <spam class="red-text">Facebook, GitHub, Instagram.</spam>
+                <footer class="person__description">
+                    W sieci: 
+                        <a class="person__link" href="#">Facebook,</a> 
+                        <a class="person__link" href="#">GitHub,</a>
+                        <a class="person__link" href="#">Instagram.,</a>
                 </footer>
 
             </div>
         </article>
     </main>
 </body>
+
 
 </html>
